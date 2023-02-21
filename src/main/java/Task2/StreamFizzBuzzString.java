@@ -24,8 +24,5 @@ public class StreamFizzBuzzString {
         service.submit(fizzBuzzService::number);
         service.submit(fizzBuzzService::print);
         service.shutdown();
-
-
     }
-
 }

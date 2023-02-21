@@ -18,7 +18,6 @@ public class StreamCurrentTime {
                 1,
                 TimeUnit.SECONDS
         );
-
         executorService.scheduleAtFixedRate(
                 () -> System.out.println("5 seconds have passed!!!"),
                 5,
